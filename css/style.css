@@ -47,6 +47,36 @@
 }
 
 /* ============================================
+   CONCEPT BANNER
+   ============================================ */
+.concept-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    z-index: 10000;
+    font-family: var(--font-sans);
+}
+
+.concept-banner span {
+    font-weight: 700;
+}
+
+/* Adjust header position for banner */
+.header {
+    top: 32px;
+}
+
+.header.scrolled {
+    top: 0;
+}
+
+/* ============================================
    RESET & BASE
    ============================================ */
 *, *::before, *::after {
